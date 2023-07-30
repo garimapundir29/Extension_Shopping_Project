@@ -11,7 +11,8 @@
 .shoppingListItem {
   position: relative;
  
-  display:flexbox;
+  font-size:large;
+ 
   align-items: center; /* Vertically align the item and button */
   background-color: #60ba4b; /* Background color for the container */
   color: #101118; /* Text color for the container */
@@ -32,14 +33,12 @@
 
 body {
   width: 300px;
-  padding: 5px;
+  padding: 10px;
   font-family:'Times New Roman', Times, serif;
-  background-image: url("https://www.clipartmax.com/middle/m2H7H7N4Z5d3d3m2_logo-happy-shopping-logo-png/"); /* Replace "your-image-file.jpg" with your image file name */
- 
-  background-image: url('example_img_girl.jpg');
-
-  background-size: cover; /* Adjust the background size to cover the entire element */
-  background-repeat: repeat; /* Prevent the background image from repeating */
+  background-color: #fda2069c;
+  background-image: url("shopping image.jpg");
+  background-size:cover; /* Adjust the background size to cover the entire element */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
 h1 {
