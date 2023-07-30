@@ -1,0 +1,92 @@
+/* Add a class for the shopping list items container */
+#shoppingListContainer {
+  margin: 0;
+  padding: 0;
+  background-color: #7eb2ca; /* Background color for the container */
+  color: #ef5b5b; /* Text color for the container */
+}
+
+
+/* Style the shopping list items */
+.shoppingListItem {
+  position: relative;
+ 
+  display:flexbox;
+  align-items: center; /* Vertically align the item and button */
+  background-color: #60ba4b; /* Background color for the container */
+  color: #101118; /* Text color for the container */
+}
+
+.deleteButton {
+  background-color: #ff0000; /* Background color for the delete button */
+  color: #492828; /* Text color for the delete button */
+
+  position:absolute;
+
+  right: 0;
+ 
+}
+
+/* Optional: Add some space between the "Delete" button and the item text */
+
+
+body {
+  width: 300px;
+  padding: 5px;
+  font-family:'Times New Roman', Times, serif;
+  background-image: url("https://www.clipartmax.com/middle/m2H7H7N4Z5d3d3m2_logo-happy-shopping-logo-png/"); /* Replace "your-image-file.jpg" with your image file name */
+ 
+  background-image: url('example_img_girl.jpg');
+
+  background-size: cover; /* Adjust the background size to cover the entire element */
+  background-repeat: repeat; /* Prevent the background image from repeating */
+}
+
+h1 {
+  text-align: center;
+}
+
+#itemInput {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#addItemBtn {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1px;
+}
+
+h1 {
+  background-color: #4e92dc; /* Background color for the heading */
+  color: #171716c3; /* Text color for the heading */
+  padding: 10px; /* Add padding for better appearance */
+  text-align: center; /* Align the text in the center */
+}
+
+#addItemBtn {
+  background-color: #c560c0; /* Background color for the button */
+  color: #171212; /* Text color for the button */
+  padding: 5px 10px; /* Add padding for better appearance */
+  border: none;
+  cursor: pointer;
+  display: block; /* Ensure the button is displayed as a block element */
+  margin: 2px auto; /* Center the button horizontally and add some margin */
+}
+
+#itemInput {
+  background-color: #deb87a; /* Background color for the input field */
+  color: #333; /* Text color for the input field */
+  padding: 5px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  width: 100%; /* Set the input field width to 100% */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
